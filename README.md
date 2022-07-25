@@ -4,6 +4,10 @@
 - User can interact with Jarvis its amazing GUI  in 3 different ways : Text, Voice, Mobile App.
 - Its can do more than 30+ task and alert you about your system status vai notification.
 
+<p> <img src="outputs/jarivis_ui.jpg" width='500px'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="outputs/jarvis_settings.jpg" width='460px'> </p>
+
+
+
 # How it works?
 - As said user can interact in 3 ways: Text,Voice,Mobile App ,so everything comes down to text.
 - This text given to machine learning model to perdict Intent.
@@ -11,4 +15,13 @@
 - Finally the extracted data  and intent is passed to Action module.
 - Action module perform the task and give feedback to user vai computer generated voice.
 
+<img src="outputs/diagram.png">
+
 Jarvis also checks for system status events like Battery Low/Full, Network connection, External device plugged, New email updates, etc and notify user.
+
+# Installation
+See requirements.txt
+
+# Requirement
+- Python 3.4+ 
+- Windows 10 and later
